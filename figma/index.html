@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>!!!</title>
+    </head>
+    <body>
+        <div class="card"> 
+            <div class="topPanel">
+                <strong class="temperature">36°</strong> 
+                <strong class="city">
+                    Ahmedabad
+                </strong>
+            </div>
+            <div class="timePanel">
+                <strong style="color: #000000; font-size: 60px; font-family: Segoe UI;">
+                    09:11:01
+                </strong>
+                <strong class="goodMorning">
+                    Good Morning, Saad.
+                </strong>
+            </div>   
+            <div class="searchBox">
+                <img src="images\5372960626978193252.jpg" class="loop">
+                <p class="searchText">Search</p>
+            </div>
+            <ul>
+                <li> <img src="images\5375186794427054103.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054104.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054105.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054107.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054108.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054109.jpg" class="icon"></li>
+                <li> <img src="images\5375186794427054110.jpg" class="icon"></li>
+            </ul>
+
+            <style>
+                body {
+                    margin: 0px;
+                    padding: 0px;                    
+                    overflow: hidden;
+                    height: 100vh;
+                }
+
+                * {
+                    box-sizing: border-box;
+                }
+
+                ul {
+                    display: flex;
+                    gap: 25px;
+                    padding: 0px;
+                    list-style: none;
+                    margin: 0;
+                }
+
+                li {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #F9F9F9;
+                    border: 1px solid #EEEEEE;
+                    border-radius: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .city {
+                    font-family: "Segoe UI";
+                    color: #6E6CDF; 
+                    position: absolute; 
+                    right: 0px; 
+                    top: 38px;
+                }
+
+                .goodMorning {
+                    font-family: "Segoe UI";
+                    color: #6E6CDF; 
+                    font-size: 26px; 
+                    position: absolute; 
+                    bottom: 0px;
+                }
+
+                .icon {
+                    width: 40px;
+                    height: 40px;                    
+                }
+
+                .searchText {
+                    color: #9E9E9E;
+                    font-size: 15x;
+                    position: absolute;
+                    left: 51px;
+                    top: 0px;
+                    font-family: "Segoe UI";
+                }
+
+                .loop {
+                    width: 24px;
+                    height: 24px;
+                    position: absolute;
+                    left: 20px;
+                }
+
+                .searchBox {
+                    height: 50px;
+                    width: 500px;
+                    border: 1px solid #EEEEEE;
+                    border-radius: 12px;
+                    display: flex;           
+                    justify-content: center; 
+                    align-items: center;
+                    position: relative;
+                    background-color: #F9F9F9;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);                    
+                }
+
+                .timePanel {
+                    width: 100vw;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center; 
+                    align-items: center;
+                    position: relative;                  
+                }
+
+                .temperature {
+                    color: black;
+                    font-family: "Segoe UI";
+                    position: absolute; 
+                    top: 3px; 
+                    right: 0px; 
+                    margin: 0px; 
+                    font-size: 27px;
+                }       
+                    
+                .card {
+                    width: 100vw;  
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    color: #FAFAFA; 
+                    position: relative;
+                    gap: 40px;
+                } 
+                
+                
+                .topPanel {
+                    width: 1400px;
+                    height: 60px;
+                    color: #FAFAFA;
+                    position: relative;
+                    position: absolute;
+                    top: 35px;
+                    left: 35px;                                     
+                }
+            </style>
+        </div>
+    </body>
+</html>
