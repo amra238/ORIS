@@ -1,0 +1,17 @@
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\MiniHttpServer.exe
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\MiniHttpServer.deps.json
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\MiniHttpServer.runtimeconfig.json
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\MiniHttpServer.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\MiniHttpServer.pdb
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.AssemblyInfoInputs.cache
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.AssemblyInfo.cs
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.csproj.CoreCompileInputs.cache
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\refint\MiniHttpServer.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.pdb
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\MiniHttpServer.genruntimeconfig.cache
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\obj\Debug\net8.0\ref\MiniHttpServer.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\Sharer\SettingsModel.cs
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\settings.json
+C:\Users\amirg\source\repos\MiniHttpServer\MiniHttpServer\bin\Debug\net8.0\static\index.html
