@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MiniHttpServer/1.0.0": {
+        "dependencies": {
+          "MiniTemplateEngine": "1.0.0"
+        },
+        "runtime": {
+          "MiniHttpServer.dll": {}
+        }
+      },
+      "MiniTemplateEngine/1.0.0": {
+        "runtime": {
+          "MiniTemplateEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniHttpServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniTemplateEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

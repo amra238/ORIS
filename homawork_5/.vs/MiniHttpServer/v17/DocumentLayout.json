@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\myormlibrary\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|solutionrelative:myormlibrary\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\core\\abstracts\\endpointbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\abstracts\\endpointbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\core\\attributes\\endpointattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\attributes\\endpointattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\endpoints\\authendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minitemplateengine\\services\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|solutionrelative:minitemplateengine\\services\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minitemplateenginetests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|solutionrelative:minitemplateenginetests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minitemplateengine\\interfaces\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|solutionrelative:minitemplateengine\\interfaces\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\core\\abstracts\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\abstracts\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\shared\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|c:\\users\\amirg\\source\\repos\\minihttpserver\\minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndpointBase.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:34:26.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EndPointAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\Attributes\\EndPointAttribute.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Attributes\\EndPointAttribute.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\Attributes\\EndPointAttribute.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Attributes\\EndPointAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:32:49.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Endpoints\\AuthEndpoints.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Endpoints\\AuthEndpoints.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Endpoints\\AuthEndpoints.cs",
+              "RelativeToolTip": "MiniHttpServer\\Endpoints\\AuthEndpoints.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:32:31.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ORMContext.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MyORMLibrary\\ORMContext.cs",
+              "RelativeDocumentMoniker": "MyORMLibrary\\ORMContext.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MyORMLibrary\\ORMContext.cs",
+              "RelativeToolTip": "MyORMLibrary\\ORMContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwEkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:26:05.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "settings.json",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\settings.json",
+              "RelativeDocumentMoniker": "MiniHttpServer\\settings.json",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\settings.json",
+              "RelativeToolTip": "MiniHttpServer\\settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T16:21:56.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "RelativeToolTip": "MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwCUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T16:17:37.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngineTests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngineTests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngineTests\\MSTestSettings.cs",
+              "RelativeToolTip": "MiniTemplateEngineTests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:23:16.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HtmlTemplateRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAkwEAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T13:56:15.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHtmlTemplateRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T13:53:32.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HttpServer.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Shared\\HttpServer.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\HttpServer.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Shared\\HttpServer.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\HttpServer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T20:21:18.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IHtmlTemplateRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:06:43.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Program.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Program.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\MiniHttpServer\\MiniHttpServer\\Program.cs",
+              "RelativeToolTip": "MiniHttpServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T06:16:14.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

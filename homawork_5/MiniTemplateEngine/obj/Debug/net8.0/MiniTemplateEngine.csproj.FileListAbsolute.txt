@@ -1,0 +1,11 @@
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\bin\Debug\net8.0\MiniTemplateEngine.deps.json
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\bin\Debug\net8.0\MiniTemplateEngine.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\bin\Debug\net8.0\MiniTemplateEngine.pdb
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.AssemblyInfoInputs.cache
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.AssemblyInfo.cs
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.csproj.CoreCompileInputs.cache
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\refint\MiniTemplateEngine.dll
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\MiniTemplateEngine.pdb
+C:\Users\amirg\source\repos\MiniHttpServer\MiniTemplateEngine\obj\Debug\net8.0\ref\MiniTemplateEngine.dll
