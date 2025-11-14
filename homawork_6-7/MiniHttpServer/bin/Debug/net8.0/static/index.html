@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="logo">Logo Here</div>
+            <p class="welcome">Welcome back !!!</p>
+            <h1>Log In</h1>
+
+            <!-- Форма отправляет на /auth/login -->
+            <form method="POST" action="/auth/login">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="login@gmail.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" value="123456789" required>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <img src="src\clarity_eye-hide-line.png" class="forgot-eye" onclick="togglePassword()">
+                </div>
+
+                <div class="login-container">
+                    <button type="submit" class="login-btn">LOGIN →</button>
+                </div>
+
+                <div class="divider">
+                    <span>or continue with</span>
+                </div>
+
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google">
+                        <img src="src\Google.png" style="width: 20px; height: 20px;">
+                    </button>
+                    <button type="button" class="social-btn github">
+                        <img src="src\Github.png" style="width: 20px; height: 20px;">
+                    </button>
+                    <button type="button" class="social-btn facebook">
+                        <img src="src\Facebook.png" style="width: 20px; height: 20px;">
+                    </button>
+                </div>
+
+                <div class="signup-link">
+                    Don't have an account yet? <a href="#">Sign up for free</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="illustration">
+            <img src="src\cactus.png" class="cactus">
+            <img src="src\Character-working-laptop-while-sitting-chair.png" class="woman_png">
+        </div>
+    </div>
+
+    <script>
+        // Только для показа/скрытия пароля
+        function togglePassword() {
+            const passwordInput = document.getElementById('password');
+            const eyeIcon = document.querySelector('.forgot-eye');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeIcon.src = 'src/eye-show-icon.png';
+            } else {
+                passwordInput.type = 'password';
+                eyeIcon.src = 'src/clarity_eye-hide-line.png';
+            }
+        }
+    </script>
+</body>
+</html>

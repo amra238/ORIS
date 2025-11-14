@@ -1,0 +1,13 @@
+{
+  "StaticDirectoryPath": "static/",
+  "Domain": "localhost",
+  "Port": "1234",
+  "SmtpSettings": {
+    "Server": "smtp.gmail.com",
+    "Port": 587,
+    "Email": "amirgimadeev36@gmail.com",
+    "Password": "ylzh ekqs aoxh barp",
+    "EnableSsl": true,
+    "ConnectionString": "Data Source={SERVER_NAME};Initial Catalog={DATABASE_NAME};Integrated Security=True"
+  }
+}
