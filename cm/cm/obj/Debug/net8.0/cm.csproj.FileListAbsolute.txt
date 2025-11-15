@@ -1,0 +1,14 @@
+C:\Users\amirg\source\repos\cm\cm\bin\Debug\net8.0\cm.exe
+C:\Users\amirg\source\repos\cm\cm\bin\Debug\net8.0\cm.deps.json
+C:\Users\amirg\source\repos\cm\cm\bin\Debug\net8.0\cm.runtimeconfig.json
+C:\Users\amirg\source\repos\cm\cm\bin\Debug\net8.0\cm.dll
+C:\Users\amirg\source\repos\cm\cm\bin\Debug\net8.0\cm.pdb
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.AssemblyInfoInputs.cache
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.AssemblyInfo.cs
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.csproj.CoreCompileInputs.cache
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.dll
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\refint\cm.dll
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.pdb
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\cm.genruntimeconfig.cache
+C:\Users\amirg\source\repos\cm\cm\obj\Debug\net8.0\ref\cm.dll

@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amirg\\source\\repos\\cm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\jsonresponseapply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\jsonresponseapply.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\response.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\response.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\jsonresponsecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\jsonresponsecreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|c:\\users\\amirg\\source\\repos\\cm\\classlibrary1\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF3E5BD-9E2F-459E-A119-66525A1D5DDF}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CDF0C29-D113-42F0-87BA-11437837237A}|cm\\cm.csproj|c:\\users\\amirg\\source\\repos\\cm\\cm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CDF0C29-D113-42F0-87BA-11437837237A}|cm\\cm.csproj|solutionrelative:cm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JSONResponseApply.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\JSONResponseApply.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\JSONResponseApply.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\JSONResponseApply.cs",
+              "RelativeToolTip": "ClassLibrary1\\JSONResponseApply.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:49:08.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JSONResponseCreate.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\JSONResponseCreate.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\JSONResponseCreate.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\JSONResponseCreate.cs",
+              "RelativeToolTip": "ClassLibrary1\\JSONResponseCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T07:32:09.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "response.json",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\response.json",
+              "RelativeDocumentMoniker": "ClassLibrary1\\response.json",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\response.json",
+              "RelativeToolTip": "ClassLibrary1\\response.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-15T06:49:53.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\Users.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Users.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\Users.cs",
+              "RelativeToolTip": "ClassLibrary1\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T06:33:42.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataModel.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\DataModel.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\DataModel.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\DataModel.cs",
+              "RelativeToolTip": "ClassLibrary1\\DataModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T06:07:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Class1.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\ClassLibrary1\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary1\\Class1.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T06:05:12.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amirg\\source\\repos\\cm\\cm\\Program.cs",
+              "RelativeDocumentMoniker": "cm\\Program.cs",
+              "ToolTip": "C:\\Users\\amirg\\source\\repos\\cm\\cm\\Program.cs",
+              "RelativeToolTip": "cm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T06:01:05.118Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
