@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coral Travel</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<script src="/static/index.js"></script>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <a href="#" class="logo">
+                    <img src="/static/src/main_current_31012024134246.svg">
+                </a>
+                <nav class="header-nav">
+                    <ul class="header-links">
+                        <li><a href="#"><img src="/static/src/phone.png" class="header--nav--icon"> +7 (495) 502 10
+                                11</a></li>
+                        <li><a href="#"><img src="/static/src/map.png" class="header--nav--icon"> Где купить</a></li>
+                        <li><a href="#"><img src="/static/src/browser.png" class="header--nav--icon"> ₽ - ▼</a></li>
+                        <li><a href="#"><img src="/static/src/shop.png" class="header--nav--icon"> Корзина</a></li>
+                        <li><a href="#"><img src="/static/src/heart.png" class="header--nav--icon"> Избранное</a></li>
+                        <li>
+                            <a href="#" onclick="showAuthModal(); return false;">
+                                <img src="/static/src/user.png" class="header--nav--icon">
+                                <span id="auth-text">Войдите или зарегистрируйтесь</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Доступные страны</a></li>
+                    <li><a href="#">Горящие туры</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Лето 2026</a></li>
+                    <li><a href="#">Новогодние туры</a></li>
+                    <li><a href="#">Больше</a></li>
+                </ul>
+                <div class="search-icon">
+                    <img src="/static/src/loop.png" style="width: 50px; height: 5%;">
+                </div>
+            </nav>
+
+            <div class="tabs">
+                <div class="tab active">
+                    <img src="/static/src/palm.png">
+                    <p>Туры</p>
+                </div>
+                <div class="tab">
+                    <img src="/static/src/build.png">
+                    <p>Отели</p>
+                </div>
+                <div class="tab">
+                    <img src="/static/src/plane.png">
+                    <p>Авиабилеты</p>
+                </div>
+            </div>
+
+            <div class="search-form">
+                <input type="text" placeholder="Город вылета" class="input-field" style="width: 200px;">
+                <img src="/static/src/plane.png" class="search-icon" style="left: 250px;">
+                <input type="text" placeholder="Введите страну, город или отель..." class="input-field"
+                    style="width: 300px;">
+                <img src="/static/src/map.png" class="search-icon" style="left: 560px;">
+                <input type="date" placeholder="Выберите даты вылета" class="input-field" style="width: 250px;">
+                <input type="text" placeholder="Выбрать" class="input-field" style="width: 150px;">
+                <img src="/static/src/moon.png" class="search-icon" style="left: 980px;">
+                <input type="text" placeholder="2 взр." class="input-field" style="width: 150px;">
+                <img src="/static/src/persons.png" class="search-icon" style="left: 1140px;">
+                <button class="search-btn"> Поиск</button>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#">Главная </a><strong style="color: black;">/ Горящие туры из Казани</strong>
+            </div>
+        </div>
+    </header>
+
+    <!-- Горячие туры из Казани 2025 -->
+    <section class="hot-tours-section">
+        <div class="container">
+            <h2 class="section-title">Горячие туры из Казани 2025</h2>
+
+            <div class="hot-tours-container">
+                <div style="display: flex; justify-content: space-between;">
+                    <h3 class="hot-tours-heading">Горячие предложения</h3>
+                    <select style="height: 33px;">
+                        <option>По умолчанию</option>
+                    </select>
+                </div>
+
+                <div class="tours-slider-container" id="hot-tours-slider-wrapper">
+                    <button class="nav-btn prev">
+                        < </button>
+
+                            <div class="tours-slider" id="hot-tours-slider">
+                                $foreach(tour in HotTours)
+                                <div class="tour-card-hot">
+                                    <div class="card-image">
+                                        <img src="${tour.image_url}" alt="Отель">
+                                        <div class="labels">
+                                            <span class="label-recommended"
+                                                style="background-color: aliceblue; color: black;">
+                                                Рекомендуем
+                                            </span>
+                                            <span class="label-elite">ELITE SERVICE</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="location">
+                                            <img src="/static/src/map.png"
+                                                style="width: 16px; height: 16px; margin-right: 5px;">
+                                            <span>${tour.arrival_city}</span>
+                                        </div>
+                                        <h4 class="hotel-name">${tour.hotel_name}</h4>
+                                        <div class="rating">
+                                            ${tour.StarsDisplay}
+                                        </div>
+                                        <div class="price">
+                                            <div class="new-price">${tour.PriceDisplay}</div>
+                                        </div>
+                                        <div class="meal-plan">${tour.meal_plan}</div>
+                                        <div style="border-top: 1px solid #c8bebe;">
+                                            <div class="dates">${tour.departure_date} – ${tour.end_date}</div>
+                                            <div class="details">Взрослых: ${tour.people_count} – Ночей:
+                                                ${tour.nights_count}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                $endfor
+                            </div>
+
+                            <button class="nav-btn next">></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Горящие туры по России, в Турцию, Египет, ОАЭ из Казани</h1>
+
+            <div class="filter-bar">
+                <div class="filter-tabs">
+                    <button class="filter-tab">Все отели</button>
+                    <button class="filter-tab">Турция</button>
+                    <button class="filter-tab">Россия</button>
+                    <button class="filter-tab active">Египет</button>
+                    <button class="filter-tab">ОАЭ</button>
+                </div>
+                <select class="filter-select">
+                    <option>из Казани</option>
+                </select>
+                <select class="filter-select">
+                    <option>ноябрь</option>
+                </select>
+                <div class="filter-bar-container">
+                    <button class="filter-btn" style="border-bottom-left-radius: 6px; border-top-left-radius: 6px;">
+                        <img src="/static/src/list.png" style="width: 20px; height: 20px;">
+                    </button>
+                    <button class="filter-btn" style="
+                        border-bottom-left-radius: 6px;
+                        border-top-left-radius: 6px;
+                        background-color: white;">
+                        <img src="/static/src/map.png" style="width: 20px; height: 20px;">
+                    </button>
+                </div>
+            </div>
+
+            <!-- контейнер для отображения туров -->
+            <div id="tours-container" class="tours-grid">
+                <div class="loading">Загрузка туров...</div>
+            </div>
+
+            <template id="tour-template">
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="/static/src/default-hotel.jpg" alt="Отель">
+                    </div>
+
+                    <div class="tour-info">
+                        <div class="tour-location">
+                            <span data-bind="arrival_city"></span>
+                        </div>
+
+                        <div class="tour-rating" data-bind="rating"></div>
+
+                        <h3 class="tour-hotel-name" data-bind="hotel_name"></h3>
+
+                        <div class="tour-details">
+                            <span class="detail-item">
+                                <img src="/static/src/plane.png" alt="Вылет" style="width: 16px; height: 16px;">
+                                <span data-bind="departure_city"></span>
+                            </span>
+                            <span class="detail-item">
+                                <img src="/static/src/calendar.png" alt="Дата" style="width: 16px; height: 16px;">
+                                <span data-bind="formatted_date"></span>
+                            </span>
+                            <span class="detail-item">
+                                <img src="/static/src/bed.png" alt="Ночи" style="width: 16px; height: 16px;">
+                                <span data-bind="nights_display"></span>
+                            </span>
+                            <span class="detail-item">
+                                <img src="/static/src/food.png" alt="Питание" style="width: 16px; height: 16px;">
+                                <span data-bind="meal_plan"></span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="tour-price-block">
+                        <div class="price-tabs">
+                            <button class="price-tab active" style="border-top-left-radius: 12px; 
+                            border-bottom-left-radius: 12px;">
+                                Тур с перелетом
+                            </button>
+                            <button class="price-tab" style="border-top-right-radius: 12px; 
+                            border-bottom-right-radius: 12px;">
+                                Только отель
+                            </button>
+                        </div>
+
+                        <div class="price-label">цена от:</div>
+                        <div class="price-value" data-bind="price_display"></div>
+
+                        <button class="select-button">Выбрать</button>
+                    </div>
+                </div>
+            </template>
+
+            <div class="cta-button">
+                <button class="cta-btn">Найти горящие туры из Казани</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О Coral Travel</a></li>
+                        <li><a href="#">Благодарности</a></li>
+                        <li><a href="#">Пресса о Coral Travel</a></li>
+                        <li><a href="#">Премия Starway World Best Hotels</a></li>
+                        <li><a href="#">Реквизиты компаний</a></li>
+                        <li><a href="#">Оставить отзыв</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Бронирование туров на coral.ru</h4>
+                    <ul>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Как забронировать онлайн</a></li>
+                        <li><a href="#">Способы оплаты</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Программа лояльности CoralBonus</a></li>
+                        <li><a href="#">Подарочные карты</a></li>
+                        <li><a href="#">Клуб корпоративных клиентов</a></li>
+                        <li><a href="#">Политика конфиденциальности и защиты персональных данных</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Популярные направления</h4>
+                    <ul>
+                        <li><a href="#">Турция</a></li>
+                        <li><a href="#">ОАЭ</a></li>
+                        <li><a href="#">Египет</a></li>
+                        <li><a href="#">Таиланд</a></li>
+                        <li><a href="#">Мальдивы</a></li>
+                        <li><a href="#">Бахрейн</a></li>
+                        <li><a href="#">Россия</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Подпишитесь на наши рассылки:</h4>
+                    <p>Получайте лучшие и самые выгодные предложения!</p>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="Введите E-mail">
+                        <button class="subscribe-btn">→</button>
+                    </div>
+                    <p class="privacy-note">Нажимая «Подписаться» вы даёте согласие на обработку персональных данных и
+                        на получение новостей и предложений</p>
+                    <div class="social-icons">
+                    </div>
+                    <div class="contact-info">
+                        <div class="phone-box">
+                            <img src="/static/src/support.png" style="width: 20%; height: 20%;">
+                            +7 (495) 502 10 11
+                        </div>
+                        <div class="rating-box">
+                            <span>86,95</span>
+                            <span>100,89</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="auth-modal"
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:1000;">
+        <div style="background:white; margin:100px auto; padding:20px; width:300px; border-radius:8px;">
+            <input type="text" id="auth-username" placeholder="Имя" style="width:100%; margin:10px 0; padding:8px;">
+            <input type="email" id="auth-email" placeholder="Email" style="width:100%; margin:10px 0; padding:8px;">
+            <input type="password" id="auth-password" placeholder="Пароль"
+                style="width:100%; margin:10px 0; padding:8px;">
+            <button onclick="submitAuth()"
+                style="width:100%; padding:8px; background:#007BFF; color:white; border:none; border-radius:4px;">Продолжить</button>
+            <button onclick="hideAuthModal()" style="width:100%; margin-top:10px; padding:8px;">Отмена</button>
+        </div>
+    </div>
+
+    <!-- Админка -->
+    <div id="admin-panel"
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:2000;">
+        <div
+            style="background:white; margin:30px auto; padding:20px; width:90%; max-width:900px; max-height:90vh; overflow-y:auto; border-radius:8px;">
+            <h3 style="margin-top:0;">Добавить новый тур</h3>
+            <form id="admin-tour-form"
+                style="display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap:12px; margin-bottom:15px;">
+                <!-- Поля формы: все свойства Tour, кроме id -->
+                <div><label>URL изображения:</label><input name="image_url" type="url" required></div>
+                <div><label>Название тура:</label><input name="tour_name" type="text" required></div>
+                <div><label>Город вылета:</label><input name="departure_city" type="text" required></div>
+                <div><label>Город прилёта:</label><input name="arrival_city" type="text" required></div>
+                <div><label>Дата вылета:</label><input name="departure_date" type="date" required></div>
+                <div><label>Дата окончания:</label><input name="end_date" type="date" required></div>
+                <div><label>Кол-во ночей:</label><input name="nights_count" type="number" min="1" required></div>
+                <div><label>Кол-во человек:</label><input name="people_count" type="number" min="1" required></div>
+                <div><label>Цена (₽):</label><input name="tour_price" type="number" step="100" required></div>
+                <div><label>Название отеля:</label><input name="hotel_name" type="text" required></div>
+                <div><label>Описание локации:</label><input name="location_description" type="text" required></div>
+                <div><label>Рейтинг (1–5):</label><input name="rating" type="number" min="1" max="5" value="5" required>
+                </div>
+                <div><label>Тип питания:</label><input name="meal_plan" type="text" value="Все включено" required></div>
+                <div><label>Достопримечательности:</label><input name="nearby_attractions" type="text"></div>
+                <div><label>Удобства отеля:</label><input name="hotel_facilities" type="text"></div>
+                <div><label>Бассейны для взрослых:</label><input name="adult_pools_count" type="number" min="0"
+                        value="0"></div>
+                <div><label>Детские бассейны:</label><input name="children_pools_count" type="number" min="0" value="0">
+                </div>
+                <div><label>Инфо о пляже:</label><input name="beach_info" type="text"></div>
+                <div><label>Контакты:</label><input name="contact_info" type="text"></div>
+            </form>
+            <div style="display:flex; gap:10px;">
+                <button id="admin-submit-btn"
+                    style="flex:1; padding:8px; background:#2196F3; color:white; border:none; border-radius:4px;">
+                    Добавить тур
+                </button>
+                <button id="admin-close-btn"
+                    style="flex:1; padding:8px; background:#9E9E9E; color:white; border:none; border-radius:4px;">
+                    Отмена
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

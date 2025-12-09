@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ORIS_semWork\\ServerORIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\endpoints\\homecontrollerendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\endpoints\\homecontrollerendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\endpoints\\userendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\models\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\models\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\handlers\\staticfileshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\handlers\\staticfileshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\handlers\\endpointhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\handlers\\endpointhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\shared\\getresponsebytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\getresponsebytes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\shared\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\shared\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\shared\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\settingsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|d:\\oris_semwork\\serveroris\\myormlibrary\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|solutionrelative:myormlibrary\\ormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\shared\\contenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\shared\\contenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\abstracts\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\abstracts\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\abstracts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\abstracts\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\abstracts\\endpointbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\abstracts\\endpointbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|d:\\oris_semwork\\serveroris\\minitemplateengine\\services\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|solutionrelative:minitemplateengine\\services\\htmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\attributes\\httpget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\attributes\\httpget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\core\\attributes\\httppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\core\\attributes\\httppost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|d:\\oris_semwork\\serveroris\\minitemplateenginetests\\templaterenderertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|solutionrelative:minitemplateenginetests\\templaterenderertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|d:\\oris_semwork\\serveroris\\minitemplateenginetests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B20031D-C4BB-4298-ABB6-5F0AF899267B}|MiniTemplateEngineTests\\MiniTemplateEngineTests.csproj|solutionrelative:minitemplateenginetests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|d:\\oris_semwork\\serveroris\\minitemplateengine\\interfaces\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17FE231A-9C43-4C95-9894-C85B11AECC75}|MiniTemplateEngine\\MiniTemplateEngine.csproj|solutionrelative:minitemplateengine\\interfaces\\ihtmltemplaterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|d:\\oris_semwork\\serveroris\\myormlibrary\\ientitydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C2C880-EE70-4B9A-8A1C-5EF955FEB596}|MyORMLibrary\\MyORMLibrary.csproj|solutionrelative:myormlibrary\\ientitydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|d:\\oris_semwork\\serveroris\\minihttpserver\\minihttpserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{63A0030F-0695-4C2D-B99A-307227C3FB82}|MiniHttpServer\\MiniHttpServer.csproj|solutionrelative:minihttpserver\\minihttpserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EndpointHandler.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\handlers\\EndpointHandler.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\handlers\\EndpointHandler.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\handlers\\EndpointHandler.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\handlers\\EndpointHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:15:47.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaticFilesHandler.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\handlers\\StaticFilesHandler.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\handlers\\StaticFilesHandler.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\handlers\\StaticFilesHandler.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\handlers\\StaticFilesHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T08:15:04.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Session.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\Session.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Models\\Session.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\Session.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Models\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:58:20.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tour.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\Tour.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Models\\Tour.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\Tour.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Models\\Tour.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:45:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Models\\User.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Models\\User.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:15:40.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserEndpoint.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "RelativeToolTip": "MiniHttpServer\\Endpoints\\UserEndpoint.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:32:53.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeControllerEndpoint.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Endpoints\\HomeControllerEndpoint.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Endpoints\\HomeControllerEndpoint.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Endpoints\\HomeControllerEndpoint.cs*",
+              "RelativeToolTip": "MiniHttpServer\\Endpoints\\HomeControllerEndpoint.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:48:35.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Services\\AuthService.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Services\\AuthService.cs*",
+              "RelativeToolTip": "MiniHttpServer\\Services\\AuthService.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:59:01.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetResponseBytes.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\GetResponseBytes.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\GetResponseBytes.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\GetResponseBytes.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\GetResponseBytes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:34:10.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HtmlTemplateRenderer.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\HtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\HtmlTemplateRenderer.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\HtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\HtmlTemplateRenderer.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAQwCEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T18:10:09.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HttpServer.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\HttpServer.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\HttpServer.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\HttpServer.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\HttpServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:56:00.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingsModel.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\SettingsModel.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\SettingsModel.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\SettingsModel.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\SettingsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:34:23.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Program.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Program.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Program.cs",
+              "RelativeToolTip": "MiniHttpServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:34:36.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ORMContext.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MyORMLibrary\\ORMContext.cs",
+              "RelativeDocumentMoniker": "MyORMLibrary\\ORMContext.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MyORMLibrary\\ORMContext.cs*",
+              "RelativeToolTip": "MyORMLibrary\\ORMContext.cs*",
+              "ViewState": "AgIAAIUBAAAAAAAAAAAgwIwBAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T11:35:46.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContentType.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\ContentType.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Shared\\ContentType.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Shared\\ContentType.cs",
+              "RelativeToolTip": "MiniHttpServer\\Shared\\ContentType.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T19:52:25.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IHtmlTemplateRenderer.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\abstracts\\IHtmlTemplateRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:32:09.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\Handler.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\abstracts\\Handler.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\Handler.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\abstracts\\Handler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:32:07.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EndpointBase.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\abstracts\\EndpointBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T05:32:05.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HtmlTemplateRenderer.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniTemplateEngine\\Services\\HtmlTemplateRenderer.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAABYBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T15:11:30.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HttpPost.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Attributes\\HttpPost.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Attributes\\HttpPost.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Attributes\\HttpPost.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Attributes\\HttpPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:08:24.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HttpGet.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Attributes\\HttpGet.cs",
+              "RelativeDocumentMoniker": "MiniHttpServer\\Core\\Attributes\\HttpGet.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\Core\\Attributes\\HttpGet.cs",
+              "RelativeToolTip": "MiniHttpServer\\Core\\Attributes\\HttpGet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:08:48.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TemplateRendererTests.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngineTests\\TemplateRendererTests.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngineTests\\TemplateRendererTests.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngineTests\\TemplateRendererTests.cs",
+              "RelativeToolTip": "MiniTemplateEngineTests\\TemplateRendererTests.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T21:54:13.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngineTests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngineTests\\MSTestSettings.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngineTests\\MSTestSettings.cs",
+              "RelativeToolTip": "MiniTemplateEngineTests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T14:23:16.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IHtmlTemplateRenderer.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "RelativeDocumentMoniker": "MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "RelativeToolTip": "MiniTemplateEngine\\Interfaces\\IHtmlTemplateRenderer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T13:53:32.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEntityDao.cs",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MyORMLibrary\\IEntityDao.cs",
+              "RelativeDocumentMoniker": "MyORMLibrary\\IEntityDao.cs",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MyORMLibrary\\IEntityDao.cs",
+              "RelativeToolTip": "MyORMLibrary\\IEntityDao.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAD4vwsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T16:44:50.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "settings.json",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\settings.json",
+              "RelativeDocumentMoniker": "MiniHttpServer\\settings.json",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\settings.json",
+              "RelativeToolTip": "MiniHttpServer\\settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-07T16:21:56.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MiniHttpServer.csproj",
+              "DocumentMoniker": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\MiniHttpServer.csproj",
+              "RelativeDocumentMoniker": "MiniHttpServer\\MiniHttpServer.csproj",
+              "ToolTip": "D:\\ORIS_semWork\\ServerORIS\\MiniHttpServer\\MiniHttpServer.csproj",
+              "RelativeToolTip": "MiniHttpServer\\MiniHttpServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-08T08:13:50.676Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

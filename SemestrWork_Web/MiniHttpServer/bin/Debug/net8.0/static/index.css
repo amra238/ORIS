@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f7fa;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: white;
+    height: 310px;
+}
+
+.header--nav--icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -30px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.header-links li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.header-links a:hover {
+    color: #007bff;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 15px 0;
+    height: 65px;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu li {
+    margin-right: 25px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    padding: 15px 0;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.tabs img {
+    height: 30px;
+    width: 30px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tab.active {
+    color: #007B9D;
+    border: 2px #007B9D;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 220px;
+}
+
+.input-field {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 48px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #007B9D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+}
+
+.breadcrumb {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #444;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 30px 0;
+    background-color: #F0F8FF;
+}
+
+.main-content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.filter-bar {
+    display: flex;
+    height: 60px;
+    gap: 10px;
+    background-color: white;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-tabs {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 40px;
+    margin: 10px;
+}
+
+.filter-tab {
+    width: 19%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #F0F8FF;
+    border: 1px
+}
+
+.filter-tabs .active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.filter-select {
+    padding: 8px 15px;
+    border: 2px solid #F0F8FF;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 17%;
+    min-width: 120px;
+}
+
+.filter-btn {
+    background-color: #0096D6;
+    color: white;
+    width: 40%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-bar-container {
+    width: 7%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+/* Стили для карточек туров */
+.tours-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.tour-card {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.tour-image {
+    flex: 0 0 350px;
+}
+
+.tour-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Центральная часть: Информация */
+.tour-info {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour-location {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.tour-rating {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 10px;
+    color: #ffd700;
+    font-size: 20px;
+}
+
+.tour-hotel-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tour-details {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #666;
+    flex-wrap: wrap;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tour-price-block {
+    flex: 0 0 350px;
+    border-left: 1px solid #eee;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.price-tabs {
+    display: flex;
+    gap: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.price-tab {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    flex: 1;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.price-tab.active {
+    border-color: #0096D6;
+    color: #0096D6;
+    background-color: white;
+}
+
+.price-label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.price-value {
+    font-size: 28px;
+    /* Увеличили размер шрифта */
+    font-weight: bold;
+    color: #0096D6;
+    margin-bottom: 15px;
+}
+
+.select-button {
+    width: 100%;
+    padding: 12px;
+    background: #0096D6;
+    /* Синий цвет */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+
+.select-button:hover {
+    background: #007B9D;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px 0;
+}
+
+.page-btn {
+    padding: 8px 15px;
+    background-color: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.page-btn.active {
+    background-color: #0096D6;
+    color: white;
+    border-color: #0096D6;
+}
+
+.cta-button {
+    text-align: center;
+    position: relative;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #0096D6;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* footer */
+.footer {
+    background-color: white;
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.footer-column a:hover {
+    color: #0096D6;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #0096D6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.privacy-note {
+    font-size: 12px;
+    color: #666;
+    margin: 15px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.phone-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    background-color: #DDEBFF;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.rating-box {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.floating-buttons {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.floating-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.floating-btn.green {
+    background-color: #28a745;
+    color: white;
+}
+
+.floating-btn.blue {
+    background-color: #0096D6;
+    color: white;
+}
+
+.floating-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Загрузка и ошибки */
+.loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+}
+
+/*  Горячие туры из Казани 2025  */
+
+.hot-tours-section {
+    background-color: #F5FAFF;
+    padding: 30px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.hot-tours-container {
+    background-color: #FFF7E6;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    height: 480px;
+}
+
+.hot-tours-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sort-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.sort-dropdown select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    min-width: 180px;
+}
+
+.tours-slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 260px;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.tours-slider {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    width: calc(280px * 4 + 15px * 3);
+    /* 4 карточки */
+    flex-shrink: 0;
+}
+
+.tour-card-hot {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Кнопки навигации */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-btn.prev {
+    left: -20px;
+}
+
+.nav-btn.next {
+    right: -20px;
+}
+
+.nav-btn:hover {
+    background-color: #f5f7fa;
+    border-color: #0096D6;
+}
+
+/* ШАБЛОННАЯ КАРТОЧКА ТУРА */
+.tour-card-hot {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.labels {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label-recommended,
+.label-elite {
+    background-color: #FF5722;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.label-elite {
+    background-color: #D35400;
+}
+
+.card-info {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.location {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hotel-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.3;
+    margin: 3px 0;
+}
+
+.rating {
+    font-size: 14px;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0096D6;
+}
+
+.meal-plan {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+
+.dates,
+.details {
+    font-size: 12px;
+    color: #666;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+}
+
+.slider-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 210px;
+    align-items: end;
+}
+
+.nav-btn img {
+    width: 16px;
+    height: 16px;
+    filter: grayscale(100%);
+}
+
+.nav-btn:hover img {
+    filter: none;
+}

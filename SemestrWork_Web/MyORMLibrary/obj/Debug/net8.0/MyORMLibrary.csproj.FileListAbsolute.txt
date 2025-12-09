@@ -1,0 +1,16 @@
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.deps.json
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.dll
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\MyORMLibrary.pdb
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\MiniTemplateEngine.dll
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\MiniTemplateEngine.pdb
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.csproj.AssemblyReference.cache
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.AssemblyInfoInputs.cache
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.AssemblyInfo.cs
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.csproj.CoreCompileInputs.cache
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLib.FCB61E28.Up2Date
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.dll
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\refint\MyORMLibrary.dll
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\MyORMLibrary.pdb
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\obj\Debug\net8.0\ref\MyORMLibrary.dll
+D:\ORIS_semWork\ServerORIS\MyORMLibrary\bin\Debug\net8.0\Services\HtmlTemplateRenderer.cs
